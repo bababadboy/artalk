@@ -11,13 +11,20 @@
         android:theme="@style/AppTheme">
         <activity android:name=".ReadActivity"></activity>
         <activity android:name=".LeaveMessageActivity" />
-        <activity android:name=".ScanActivity" />
-        <activity android:name=".MapActivity">
+        <activity android:name=".ScanActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+        </activity>
+        <activity android:name=".MapActivity">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
         </activity>
     </application>
 
